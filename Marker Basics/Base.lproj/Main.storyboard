@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jzt-Ez-A1I">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zLf-c7-3pt">
+            <objects>
+                <viewController id="RNL-xw-Afc" customClass="ARViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="knj-lu-i52"/>
+                        <viewControllerLayoutGuide type="bottom" id="wTK-oI-Pp8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eaT-CO-5Sf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-6v-NrD">
+                                <rect key="frame" x="20" y="550" width="133" height="30"/>
+                                <state key="normal" title="Add Image"/>
+                                <connections>
+                                    <action selector="addImageButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="uko-gk-U81"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmM-5A-R0b">
+                                <rect key="frame" x="305" y="550" width="133" height="30"/>
+                                <state key="normal" title="Add Alpha Video"/>
+                                <connections>
+                                    <action selector="addAlphaVideoButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="fkB-KV-aJE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldi-Eh-93w">
+                                <rect key="frame" x="165" y="550" width="132" height="30"/>
+                                <state key="normal" title="Add Video"/>
+                                <connections>
+                                    <action selector="addVideoButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="e8v-1M-nv9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlB-x3-sF2">
+                                <rect key="frame" x="448" y="550" width="132" height="30"/>
+                                <state key="normal" title="Add Model"/>
+                                <connections>
+                                    <action selector="addModelButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="k72-bC-3AD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wTK-oI-Pp8" firstAttribute="top" secondItem="OmM-5A-R0b" secondAttribute="bottom" constant="20" id="3Ak-Ht-XKh"/>
+                            <constraint firstItem="XlB-x3-sF2" firstAttribute="trailing" secondItem="eaT-CO-5Sf" secondAttribute="trailingMargin" id="BvY-c9-SyW"/>
+                            <constraint firstItem="ldi-Eh-93w" firstAttribute="leading" secondItem="A7Z-6v-NrD" secondAttribute="trailing" constant="10" id="DVo-Zc-v4u"/>
+                            <constraint firstItem="OmM-5A-R0b" firstAttribute="width" secondItem="XlB-x3-sF2" secondAttribute="width" id="IhO-Tc-XAC"/>
+                            <constraint firstItem="OmM-5A-R0b" firstAttribute="leading" secondItem="ldi-Eh-93w" secondAttribute="trailing" constant="10" id="LDK-nd-79s"/>
+                            <constraint firstItem="wTK-oI-Pp8" firstAttribute="top" secondItem="ldi-Eh-93w" secondAttribute="bottom" constant="20" id="WXa-re-Wgd"/>
+                            <constraint firstItem="A7Z-6v-NrD" firstAttribute="leading" secondItem="eaT-CO-5Sf" secondAttribute="leadingMargin" id="dCl-fU-jTH"/>
+                            <constraint firstItem="wTK-oI-Pp8" firstAttribute="top" secondItem="XlB-x3-sF2" secondAttribute="bottom" constant="20" id="meb-d8-Dd1"/>
+                            <constraint firstItem="ldi-Eh-93w" firstAttribute="width" secondItem="OmM-5A-R0b" secondAttribute="width" id="pFJ-oD-KdH"/>
+                            <constraint firstItem="XlB-x3-sF2" firstAttribute="leading" secondItem="OmM-5A-R0b" secondAttribute="trailing" constant="10" id="pNW-uM-i8p"/>
+                            <constraint firstItem="A7Z-6v-NrD" firstAttribute="width" secondItem="ldi-Eh-93w" secondAttribute="width" id="tHt-lw-i4z"/>
+                            <constraint firstItem="wTK-oI-Pp8" firstAttribute="top" secondItem="A7Z-6v-NrD" secondAttribute="bottom" constant="20" id="zan-tj-zga"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vqi-mC-Tn8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061" y="429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mfF-h3-wmU">
+            <objects>
+                <viewController id="jzt-Ez-A1I" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zaX-ld-C4n"/>
+                        <viewControllerLayoutGuide type="bottom" id="J9n-Vg-LKt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bw4-UQ-0BP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gP2-SP-qfP">
+                                <rect key="frame" x="20" y="276" width="560" height="48"/>
+                                <color key="backgroundColor" red="0.093936003739999996" green="0.37813848259999999" blue="0.51553249359999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="VIEW">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98417419195175171" green="0.9887431263923645" blue="0.96365326642990112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="30" name="HelveticaNeue-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="RNL-xw-Afc" kind="show" id="ydf-kk-A7i"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kudan_logo" translatesAutoresizingMaskIntoConstraints="NO" id="rlo-u2-wZC">
+                                <rect key="frame" x="30" y="60" width="540" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rlo-u2-wZC" secondAttribute="height" multiplier="4:1" id="aIg-YT-L6a"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.99153584240000003" green="0.094695024190000004" blue="0.0056896926840000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rlo-u2-wZC" firstAttribute="leading" secondItem="bw4-UQ-0BP" secondAttribute="leadingMargin" constant="10" id="7zS-1N-zQf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rlo-u2-wZC" secondAttribute="trailing" constant="10" id="Pf2-uD-hmg"/>
+                            <constraint firstItem="gP2-SP-qfP" firstAttribute="centerX" secondItem="bw4-UQ-0BP" secondAttribute="centerX" id="SW9-O4-GbL"/>
+                            <constraint firstItem="gP2-SP-qfP" firstAttribute="centerY" secondItem="bw4-UQ-0BP" secondAttribute="centerY" priority="250" id="UCO-El-6a0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gP2-SP-qfP" secondAttribute="trailing" id="fQe-Dt-bAN"/>
+                            <constraint firstItem="gP2-SP-qfP" firstAttribute="leading" secondItem="bw4-UQ-0BP" secondAttribute="leadingMargin" id="haI-JV-ndH"/>
+                            <constraint firstItem="rlo-u2-wZC" firstAttribute="top" secondItem="zaX-ld-C4n" secondAttribute="bottom" constant="40" id="ma7-sx-Wxa"/>
+                            <constraint firstItem="gP2-SP-qfP" firstAttribute="top" secondItem="rlo-u2-wZC" secondAttribute="bottom" constant="20" id="xRh-Or-n2d"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xRh-Or-n2d"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="xRh-Or-n2d"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQw-k2-qKM" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="233" y="424"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kudan_logo" width="256" height="53"/>
+    </resources>
+</document>
