@@ -317,7 +317,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/kudansamples",
 				);
-				INFOPLIST_FILE = kudansamples/Info.plist;
+				INFOPLIST_FILE = "Marker Basics/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamples;
@@ -334,7 +334,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/kudansamples",
 				);
-				INFOPLIST_FILE = kudansamples/Info.plist;
+				INFOPLIST_FILE = "Marker Basics/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamples;
