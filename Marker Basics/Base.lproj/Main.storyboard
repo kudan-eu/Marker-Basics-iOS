@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jzt-Ez-A1I">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jzt-Ez-A1I">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -21,28 +21,28 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-6v-NrD">
                                 <rect key="frame" x="20" y="550" width="133" height="30"/>
-                                <state key="normal" title="Add Image"/>
+                                <state key="normal" title="View Image"/>
                                 <connections>
                                     <action selector="addImageButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="uko-gk-U81"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmM-5A-R0b">
                                 <rect key="frame" x="305" y="550" width="133" height="30"/>
-                                <state key="normal" title="Add Alpha Video"/>
+                                <state key="normal" title="View Alpha Video"/>
                                 <connections>
                                     <action selector="addAlphaVideoButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="fkB-KV-aJE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldi-Eh-93w">
                                 <rect key="frame" x="165" y="550" width="132" height="30"/>
-                                <state key="normal" title="Add Video"/>
+                                <state key="normal" title="View Video"/>
                                 <connections>
                                     <action selector="addVideoButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="e8v-1M-nv9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlB-x3-sF2">
                                 <rect key="frame" x="448" y="550" width="132" height="30"/>
-                                <state key="normal" title="Add Model"/>
+                                <state key="normal" title="View Model"/>
                                 <connections>
                                     <action selector="addModelButtonPressed:" destination="RNL-xw-Afc" eventType="touchUpInside" id="k72-bC-3AD"/>
                                 </connections>
