@@ -20,7 +20,7 @@
 - (void)setupImageTrackable
 {
     // Initialise image trackable
-    self.imageTrackable = [[ARImageTrackable alloc] initWithImage:[UIImage imageNamed:@"spaceMarker.jpg"] name:@"space"];
+    self.imageTrackable = [[ARImageTrackable alloc] initWithImage:[UIImage imageNamed:@"lego.jpg"] name:@"lego"];
     
     // Get instance of image tracker manager
     ARImageTrackerManager *trackerManager = [ARImageTrackerManager getInstance];

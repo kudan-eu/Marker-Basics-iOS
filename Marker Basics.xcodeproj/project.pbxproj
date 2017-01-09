@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2D478921E23BAEC00439ECF /* lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2D478911E23BAEC00439ECF /* lego.jpg */; };
 		E2FDDAA91CCE319D00AB37D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDDAA81CCE319D00AB37D2 /* main.m */; };
 		E2FDDAAC1CCE319D00AB37D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDDAAB1CCE319D00AB37D2 /* AppDelegate.m */; };
 		E2FDDAAF1CCE319D00AB37D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FDDAAE1CCE319D00AB37D2 /* ViewController.m */; };
@@ -20,11 +21,12 @@
 		E2FDDAEB1CCE591B00AB37D2 /* bigBenTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FDDAE41CCE591B00AB37D2 /* bigBenTexture.png */; };
 		E2FDDAEC1CCE591B00AB37D2 /* eyebrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FDDAE51CCE591B00AB37D2 /* eyebrow.png */; };
 		E2FDDAED1CCE591B00AB37D2 /* kaboom.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E2FDDAE61CCE591B00AB37D2 /* kaboom.mp4 */; };
-		E2FDDAEE1CCE591B00AB37D2 /* spaceMarker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2FDDAE71CCE591B00AB37D2 /* spaceMarker.jpg */; };
 		E2FDDAEF1CCE591B00AB37D2 /* waves.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E2FDDAE81CCE591B00AB37D2 /* waves.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2D4788F1E23A2C300439ECF /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KudanAR.framework; sourceTree = SOURCE_ROOT; };
+		E2D478911E23BAEC00439ECF /* lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lego.jpg; path = Assets/lego.jpg; sourceTree = "<group>"; };
 		E2FDDAA41CCE319D00AB37D2 /* Marker Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marker Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FDDAA81CCE319D00AB37D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2FDDAAA1CCE319D00AB37D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +45,6 @@
 		E2FDDAE41CCE591B00AB37D2 /* bigBenTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigBenTexture.png; path = Assets/bigBenTexture.png; sourceTree = "<group>"; };
 		E2FDDAE51CCE591B00AB37D2 /* eyebrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyebrow.png; path = Assets/eyebrow.png; sourceTree = "<group>"; };
 		E2FDDAE61CCE591B00AB37D2 /* kaboom.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = kaboom.mp4; path = Assets/kaboom.mp4; sourceTree = "<group>"; };
-		E2FDDAE71CCE591B00AB37D2 /* spaceMarker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spaceMarker.jpg; path = Assets/spaceMarker.jpg; sourceTree = "<group>"; };
 		E2FDDAE81CCE591B00AB37D2 /* waves.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = waves.mp4; path = Assets/waves.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,11 +110,11 @@
 		E2FDDAE11CCE590C00AB37D2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E2D478911E23BAEC00439ECF /* lego.jpg */,
 				E2FDDAE21CCE591B00AB37D2 /* ben.armodel */,
 				E2FDDAE41CCE591B00AB37D2 /* bigBenTexture.png */,
 				E2FDDAE51CCE591B00AB37D2 /* eyebrow.png */,
 				E2FDDAE61CCE591B00AB37D2 /* kaboom.mp4 */,
-				E2FDDAE71CCE591B00AB37D2 /* spaceMarker.jpg */,
 				E2FDDAE81CCE591B00AB37D2 /* waves.mp4 */,
 			);
 			name = Assets;
@@ -180,9 +181,9 @@
 				E2FDDAB71CCE319D00AB37D2 /* LaunchScreen.storyboard in Resources */,
 				E2FDDAED1CCE591B00AB37D2 /* kaboom.mp4 in Resources */,
 				E2FDDAEC1CCE591B00AB37D2 /* eyebrow.png in Resources */,
+				E2D478921E23BAEC00439ECF /* lego.jpg in Resources */,
 				E2FDDAB41CCE319D00AB37D2 /* Assets.xcassets in Resources */,
 				E2FDDAE91CCE591B00AB37D2 /* ben.armodel in Resources */,
-				E2FDDAEE1CCE591B00AB37D2 /* spaceMarker.jpg in Resources */,
 				E2FDDAEB1CCE591B00AB37D2 /* bigBenTexture.png in Resources */,
 				E2FDDAB21CCE319D00AB37D2 /* Main.storyboard in Resources */,
 			);
